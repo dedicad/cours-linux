@@ -60,8 +60,13 @@ hideInToc: true
   </div>
 </div>
 
-TODO : Compléter espace en bas
+<br> </br>
+<br> </br>
 
+- Introduction à Linux (2 jours)
+- Introduction à Docker et à la conteneurisation (2 jours)
+- Gestion de projets Informatiques (5 jours)
+  
 <!-- <div class="grid pt-40 gap-4 grid-cols-[100px,1fr] animate-bounce-alt">
 
 ### Name
@@ -73,7 +78,7 @@ TODO : Compléter espace en bas
 
 
 <!--
-Here is another comment.
+Vous me reverrez également pour vos projets en autonomie en fin d'année ou je viendrai 1 jours pour vous accompagner.
 -->
 
 <style>
@@ -93,58 +98,40 @@ transition: fade-out
 hideInToc: true
 ---
 
-# What is Slidev?
-
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
-
-<style>
-h1 {
-  background-color: #2B90B6;
-  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-</style>
-
-<!--
-Here is another comment.
--->
-
----
-layout: default
-hideInToc: true
----
-
 # Plan du Cours
 
 
 
 <Toc maxDepth="1"></Toc>
 
+
+
 ---
-transition: slide-up
-level: 2
+src: ./pages/origin-linux.md
+transition: fade-out
+---
+
+
+
+---
+src: ./pages/files-and-permissions.md
+transition: fade-out
+---
+
+
+---
+src: ./pages/documentation.md
+transition: fade-out
+---
+
+---
+src: ./pages/terminal.md
+transition: fade-out
+---
+
+---
+src: ./pages/let's practice.md
+transition: fade-out
 ---
 
 # Navigation
@@ -156,7 +143,7 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 |     |     |
 | --- | --- |
 | <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
-| <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
+| <kbd>left</kbd>  / <kbd>shsift</kbd><kbd>space</kbd> | previous animation or slide |
 | <kbd>up</kbd> | previous slide |
 | <kbd>down</kbd> | next slide |
 
@@ -168,6 +155,7 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
   alt=""
 />
 <p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
+
 
 ---
 layout: image-right
@@ -490,4 +478,3 @@ class: text-center
 # Learn More
 
 [Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
-

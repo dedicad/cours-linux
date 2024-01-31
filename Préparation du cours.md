@@ -7,45 +7,80 @@ Les objectifs pédagogiques visés par cette formation sont :
 
 
 # TODO : 
-- [ ] Compléter plan du cours
+- [x] Compléter plan du cours
 - [x] Demander à Max son lien pour faire des slides
 - [ ] Trouver des exercices pratiques à faire 
 - [ ] Compléter les différentes partie
 - [ ] Faire des slides
 - [ ] Faire le QCM avec les questions
+- [ ] Relire le format des journées (arbitrage théorie / pratique)
+- [ ] M'inspirer du repo de Max pour deployer sur Github Pages 
 
 # Plan du cours
 
+Jour 1 : 
+Origine des systèmes Unix, commande simples, terminal
+
+Jour 2 : 
+
+Monitorer un système, Protocole SSH, Dual Boot
+
 1. Origine et philosophie Unix / Linux
-   1. Origine
+   1. Origine & Définition d'un système d'exploitation
+      1. les différents types de systèmes d'exploitations
+      2. 
    2. Concept de distribution
+      1. Les distributions classiques : Ubuntu, Debian, Fedora, kali + Mac OS / Android
    3. L'utilisation intensive de Linux pour les serveurs de déploiements
+      1. Qu'est ce qu'une VM ? 
 2. L'arborescence de fichier et les permissions 
-   1. Dossier / fichiers / liens symboliques / exécutables
+   1. Dossier / fichiers / liens symboliques / exécutables 
    2. chown chiffres / droits
-   3. Pertinent de rentre dans concept inode / stockage ?
+   3. Pertinent de rentrer dans concept inode / stockage ?
 3. Comment se repérer dans les commandes ?
    1. man
    2. tldr
+   3. sudo
 4. Le terminal et sa customisation --> Seulement exo pratique je pense
    1. Les éditeurs de terminaux : nano ; e-mac ; vi/vim/neovim
-   2. Créer des alias
-   3. Chainer des commandes (grep ; && ; |)
-5. Exécuter des programmes
+   2. Les différents terminaux
+   3. Créer des alias (+ which + history)
+   4. Chainer des commandes (grep ; && ; |)
+5. Passons à la pratique !
+   1. Naviguer sur son ordinateur : pwd, cd, tree, ls
+   2. créer un alias de commande
+   3. Créer des fichiers (touch / vim)
+   4. Grep : se repérer dans un fichier texte, trouver des lignes
+   5. Parser des logs ? ex: les logs d'un daemon classiques / les logs systèmes (avec tail par exemples)
+   6. jq ; cat
+   
+
+   --- Jour 2
+
+6. Exécuter des programmes
    1. rendre un fichier exécutable
    2. Utiliser son répertoire de binaire pour le lancer plus facilement
    3. Créer des daemon pour lancer dès le démarrage
 6. Installer des paquets
    1. aptitude
    2. snap
+   3. brew
 7. Monitorer un système
-   1. ps/top/htop/lsof
+   1. ps/top/htop/lsof/watch
    2. Arrêter un programmer : kill / killall
    3. Mettre en place un firewall et bloquer un port
 8. Protocole SSH
    1. Qu'est ce que le protocole SSH
    2. Comment générer une clé ?
    3. Comment autoriser la connection sur un serveur ?
+9.  Dual Boot
+   1. Les partitions d'un disques
+   2. Les sytèmes de fichiers classiques
+   3. Linux Live
+   4. Comment fonctionne un dual Boot
+10. Advanced notions (optional) ? 
+    1. kernel space vs User Space
+
 
 # 
 
