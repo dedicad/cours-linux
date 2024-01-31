@@ -32,6 +32,44 @@ hideInToc: true
 # L'arborescence de fichier et les permissions
 ### Les droits et permissions
 
-TODO: est-ce que c'est pas gênant du coup de pas connaître l'user Root ?
+<p class="opacity-90 border-1 border-separate p2">
+<span v-click>d
+</span>
+<span v-click>rwx
+</span>
+<span v-click>r-x
+</span>
+<span v-click>r-x
+</span>
+</p>
 
-TODO : Ajouter tableau et explication des niveaux de droits
+<p class="opacity-90 border-1 border-separate p2">
+<span v-click>Type
+</span>
+<span v-click>Permission_propriétaire
+</span>
+<span v-click>Permission_groupe
+</span>
+<span v-click>Permission_publique
+</span>
+</p>
+
+<br/>
+
+
+<p v-click class="opacity-90 border-1 border-separate p2">
+Exemple : 
+- rwx r-- r--
+</p>
+
+
+<p v-click class="opacity-80 border-1 border-separate p2">⚠️ ⚠️     &nbsp; &nbsp;Attention, modifier les permissions de certains fichiers peut casser certains programmes (ex: clé ssh)</p>
+
+[Documentation officielle](https://doc.ubuntu-fr.org/permissions#explication_par_l_exemple)
+
+<!--
+d : type de ressource (dossier, fichier, lien symbolique, socket, etc.)
+triplet : permission du propriétaire
+triplet : permission du groupe
+triplet : permission générale
+-->

@@ -32,6 +32,8 @@ hideInToc: true
 
 <img v-click
     class="w-100"
-    src="assets/chaining_commands.png"
+    src="https://drive.google.com/file/d/1PjWGLSZGi60KB-NSIfbKqCX4nIHj8d8r/view?usp=sharing"
 />
+
+<p v-click class="opacity-90 border-1 border-separate p2">L'élément > permet d'envoyer le résultat d'une commande dans un fichier (>> pour ajouter au bout du fichier)</p>
 

@@ -3,7 +3,7 @@
 
 <img v-after
     class="w-100"
-    src="assets/man_ls.png"
+    src="https://drive.google.com/file/d/10elRY3Q1De-_mWg8jV74pp8k6g194L2v/view?usp=sharing"
     alt="marius_ambayrac"
 /> 
 
@@ -17,11 +17,11 @@ hideInToc: true
 
 <img v-after
     class="w-100"
-    src="assets/man_ls.png"
+    src="https://drive.google.com/file/d/1-W_3yrcDhBOqreqmx_Q88P8yPkW1wPDs/view?usp=sharing"
     alt="marius_ambayrac"
 /> 
 
-
+[Documentation tldr en ligne](https://tldr.inbrowser.app/pages/common/tail)
 <!--
 Too long don't read
 -->
@@ -46,5 +46,4 @@ Pour accéder à cet utilisateur, si on a les droits "sudo", on peut utiliser la
 On peut ainsi lancer des commandes qui ont plus d'impact sur le système (supprimer des fichiers importants, changer des permissions, etc.)
 </p>
 
-TODO : Add warning emoji
-<p v-click class="opacity-80 border-1 border-separate p2">Attention à ne pas en abuser !</p>
+<p v-click class="opacity-80 border-1 border-separate p2">⚠️ ⚠️     &nbsp; &nbsp;Attention à ne pas en abuser !</p>

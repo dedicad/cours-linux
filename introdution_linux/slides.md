@@ -41,7 +41,7 @@ hideInToc: true
 <div class="flex">
   <img
     class="w-50 border-3 rounded-80"
-    src="assets/Profil.png"
+    src="https://drive.google.com/file/d/1g-CDLokBAiHrblqWUUNfwXZVc-Gil4cL/view?usp=sharing"
     alt="marius_ambayrac"
   />
   <div class="mx-20 mt-20">
