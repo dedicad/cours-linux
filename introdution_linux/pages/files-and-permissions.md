@@ -27,8 +27,11 @@ launch -.->|Symbolic Link| C[📄 index.html]
 
 ---
 transition: fade-out
+hideInToc: true
 ---
 # L'arborescence de fichier et les permissions
 ### Les droits et permissions
 
 TODO: est-ce que c'est pas gênant du coup de pas connaître l'user Root ?
+
+TODO : Ajouter tableau et explication des niveaux de droits

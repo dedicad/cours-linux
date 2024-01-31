@@ -82,8 +82,6 @@ Monitorer un système, Protocole SSH, Dual Boot
     1. kernel space vs User Space
 
 
-# 
-
 
 # Evalution
 
@@ -100,7 +98,8 @@ Monitorer un système, Protocole SSH, Dual Boot
 
   > Bonus : Instaler docker ; Lancer une image de docker avec ubuntu 22 dessus
   > Bonus : accéder à un shell dans le container, et éteindre le système
-
+   > Bonus : Créer un programme exécutable en ligne de commande (dans le language de votre choix) qui boostrap une architecture de fichier pour un projet de dév en architecture MVC 
+      > Variante : permettre le choix, pour proposer une architecture hexagonale
 
 ## Key Learnings
 

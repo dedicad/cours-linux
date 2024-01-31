@@ -1,7 +1,26 @@
+# Le terminal et sa customisation
+### Les différents éditeurs de terminaux
 ---
 transition: fade-out
 hideInToc: true
-title: Le terminal et sa customisation
+
+---
+
+# Le terminal et sa customisation
+### Les différents terminaux
+
+
+---
+transition: fade-out
+hideInToc: true
+---
+
+# Le terminal et sa customisation
+### Créer des alias
+
+---
+transition: fade-out
+hideInToc: true
 ---
 
 # Le terminal et sa customisation
