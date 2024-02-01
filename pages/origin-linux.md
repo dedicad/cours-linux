@@ -52,3 +52,45 @@ Enchainer par quelques questions :
 - Qui a déjà utilisé un ordinateur sous Linux ?
 - Qui a déjà installé un dual boot ?
 -->
+
+
+---
+transition: fade-out
+hideInToc: true
+---
+
+# Origine et philosophie Unix / Linux
+### Concept de distribution 
+
+<p v-click class="opacity-90 border-1 border-separate p2">Au dessus de la base Unix, plusieurs distributions ont été développés</p>
+
+<div v-click>
+
+Elles comportent des variations graphiques, de paquets installés par défault, etc. 
+
+Les principales à citer sont : 
+
+- Debian
+- Ubuntu
+- Arch
+- Fedora
+- etc.
+
+</div>
+
+---
+transition: fade-out
+hideInToc: true
+---
+
+# Origine et philosophie Unix / Linux
+### L'utilisation intensive de Linux pour les serveurs de déploiements
+
+<p v-click class="opacity-90 border-1 border-separate p2">De part sa gratuité, le noyau Linux est très largement utilisé. Notamment dans sur les serveurs de déploiements</p>
+
+<br/>
+Linux est petit (avec beaucoup de versions light / small / alpine), modulaire et est donc très adéquat pour opérer des Virtuals Machines (VMs), des containers ou autres systèmes dans le Cloud / déployé.
+<!--
+Un serveur de déploiement est quelque chose qui permet de d'alimenter en donnée un site web.
+-->
+

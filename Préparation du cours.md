@@ -28,7 +28,6 @@ Monitorer un système, Protocole SSH, Dual Boot
 1. Origine et philosophie Unix / Linux
    1. Origine & Définition d'un système d'exploitation
       1. les différents types de systèmes d'exploitations
-      2. 
    2. Concept de distribution
       1. Les distributions classiques : Ubuntu, Debian, Fedora, kali + Mac OS / Android
    3. L'utilisation intensive de Linux pour les serveurs de déploiements
@@ -40,7 +39,6 @@ Monitorer un système, Protocole SSH, Dual Boot
 3. L'arborescence de fichier et les permissions 
    1. Dossier / fichiers / liens symboliques / exécutables 
    2. chown chiffres / droits
-   3. Pertinent de rentrer dans concept inode / stockage ?
 4. Comment se repérer dans les commandes ?
    1. man
    2. tldr

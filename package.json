@@ -14,6 +14,7 @@
     "typescript": "^5.3.3"
   },
   "devDependencies": {
-    "@unocss/preset-wind": "^0.58.4"
+    "@unocss/preset-wind": "^0.58.4",
+    "playwright-chromium": "^1.41.1"
   }
 }

@@ -3,7 +3,7 @@
 
 <img v-after
     class="w-100"
-    src="https://drive.google.com/file/d/10elRY3Q1De-_mWg8jV74pp8k6g194L2v/view?usp=sharing"
+    src="assets/man_ls.png"
     alt="marius_ambayrac"
 /> 
 
@@ -17,7 +17,7 @@ hideInToc: true
 
 <img v-after
     class="w-100"
-    src="https://drive.google.com/file/d/1-W_3yrcDhBOqreqmx_Q88P8yPkW1wPDs/view?usp=sharing"
+    src="assets/tldr.png"
     alt="marius_ambayrac"
 /> 
 

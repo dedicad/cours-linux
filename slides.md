@@ -27,12 +27,6 @@ Marius Ambayrac, 1-2 Février 2024
   </span>
 </div>
 
-
-
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
-
 ---
 transition: fade-out
 hideInToc: true
@@ -41,7 +35,7 @@ hideInToc: true
 <div class="flex">
   <img
     class="w-50 border-3 rounded-80"
-    src="https://drive.google.com/file/d/1g-CDLokBAiHrblqWUUNfwXZVc-Gil4cL/view?usp=sharing"
+    src="assets/Profil.png"
     alt="marius_ambayrac"
   />
   <div class="mx-20 mt-20">
@@ -58,16 +52,6 @@ hideInToc: true
 - Introduction à Linux (2 jours)
 - Introduction à Docker et à la conteneurisation (2 jours)
 - Gestion de projets Informatiques (5 jours)
-  
-<!-- <div class="grid pt-40 gap-4 grid-cols-[100px,1fr] animate-bounce-alt">
-
-### Name
-
-- Item 1
-- Item 2
-
-</div> -->
-
 
 <!--
 Vous me reverrez également pour vos projets en autonomie en fin d'année ou je viendrai 1 jours pour vous accompagner.
@@ -122,6 +106,11 @@ transition: fade-out
 ---
 
 ---
+src: ./pages/executing_program.md
+transition: fade-out
+---
+
+---
 src: ./pages/let's practice.md
 transition: fade-out
 ---
@@ -131,7 +120,3 @@ transition: fade-out
 layout: center
 class: text-center
 ---
-
-# Learn More
-
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
