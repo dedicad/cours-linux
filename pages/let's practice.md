@@ -118,3 +118,15 @@ Vous pouvez tester Ubuntu et Arch par exemple.
 
 
 - Vous pouvez également prendre de l'avance sur demain, en essayant d'utiliser une clé usb Live pour booter votre ordinateur sur Linux. N'hésitez pas à m'appeler !
+
+---
+transition: fade-out
+hideInToc: true
+---
+
+# Passage à la pratique !
+### F. Bonus n°2
+
+<br/>
+
+- Utiliser le "Get Started" de docker pour l'installer sur votre machine et lancer le container hello_world
