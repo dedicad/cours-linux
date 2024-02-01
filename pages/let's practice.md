@@ -99,6 +99,7 @@ hideInToc: true
    2. Stocker le résultat de cet appel dans un fichier .json
    3. Utilisez l'utilitaire jq pour extraire la vitesse du vent (wind_speed)
    4. Concevez un programme bash "meteo" de telle sorte qu'il affiche la vitesse du vent pour n'importe quelle latitude et longitude.
+   5. Bonus : Utiliser [google Maps](https://developers.google.com/maps/documentation/geocoding/requests-geocoding?hl=fr) (me demander une clé API de test) pour faire un programme qui donne la vitesse du vent pour n'importe quelle adresse.
 
 
 ---
@@ -129,4 +130,31 @@ hideInToc: true
 
 <br/>
 
-- Utiliser le "Get Started" de docker pour l'installer sur votre machine et lancer le container hello_world
+1. Utiliser le "Get Started" de docker pour l'installer sur votre machine et lancer le container hello_world
+2. Comment docker fonctionne-t-il ?
+3. Lancer une image de docker avec la distribution [Alpine](https://hub.docker.com/_/alpine) ou [Debian Slim](https://hub.docker.com/_/debian)
+4. Accéder au shell dans le container docker et éteindre le container depuis l'intérieur
+5. Rallumez le container. Transférez des fichiers entre votre machine et le container docker (qu'on appellera container-server)
+6. Ajouter un serveur http qui écoute sur le port 80 et répond hello_world (language de votre choix, vous pouvez en récupérez des déjà écrits)
+7. Lancer ce serveur http dans le container
+8. Utilisez docker-compose pour ajouter un second container alpine (appelé container-client)
+   1. Permettez la communication sur le port 80 entre les deux containers via la configuration du docker-compose
+   2. Depuis container-client, installer un script qui fait 4 appels à une adresse précise (celle de container-server) sur le port 80
+   3. Observez bien les appels entre les 2 containers dans les logs de container-server
+
+
+---
+transition: fade-out
+hideInToc: true
+---
+
+# Passage à la pratique !
+### F. Bonus n°3
+
+1. Installer [fnm](https://nodejs.org/en/download/package-manager#fnm) et la version 20 de NodeJS
+2. Installer [tldr](https://tldr.sh/#installation) sur votre ordinateur via npm (node packet manager)
+3. Créer un programme exécutable en ligne de commande (dans le language de votre choix, pour node [les outils suivants](https://byby.dev/node-command-line-libraries) sont assez agréables mais c'est possible en C++ également) : 
+   1. Le programme doit faire le boostrap d'une application web en architecture MVC ([définition Wikipédia](https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur), [exemple sur OpenClassrooms](https://openclassrooms.com/fr/courses/4670706-adoptez-une-architecture-mvc-en-php/7847928-decouvrez-comment-fonctionne-une-architecture-mvc))
+   2. Le programme doit demander à l'utilisateur le nom du projet
+   3. Dans un premier temps le language du projet est fixe (par exemple Php ou javascript)
+   4. Dans un seconde temps, permettez à l'utilisateur de sélectionner dans une liste déroulante le language qu'il souhaite (php, javascript, typescript, nodeJS, etc. à vous d'ajoutez ceux que vous pouvez !)

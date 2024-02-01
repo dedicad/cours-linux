@@ -118,6 +118,9 @@ Monitorer un système, Protocole SSH, Dual Boot
   > Bonus : accéder à un shell dans le container, et éteindre le système
    > Bonus : Créer un programme exécutable en ligne de commande (dans le language de votre choix) qui boostrap une architecture de fichier pour un projet de dév en architecture MVC 
       > Variante : permettre le choix, pour proposer une architecture hexagonale
+   > Bonus : installer fnm et la version 20 de NodeJS
+   > Bonus : Utilisez docker-compose pour faire communiquer 2 containers docker entre eux. (1 serveur et 1 base de donnée postgresql par exemple)
+
 
 ## Key Learnings
 
