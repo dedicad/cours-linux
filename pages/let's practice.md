@@ -95,7 +95,7 @@ hideInToc: true
 1. Les logs systèmes sont écrites en temps réel dans le fichier /var/log/syslog : Affichez ces logs en temps réel dans votre terminal via la commande tail
 2. Use command "grep" to visualize all errors in system logs
 3. Dans beaucoup de systèmes les logs, ou d'autres fichiers sont au format JSON
-   1. Faites un appel à l'api OpenWeather : https://openweathermap.org/api/one-call-3 pour connaitre les métriques météo d'Orléans.
+   1. Faites un appel à l'api OpenMétéo : https://open-meteo.com/en/docs/ pour connaitre les métriques météo d'Orléans.
    2. Stocker le résultat de cet appel dans un fichier .json
    3. Utilisez l'utilitaire jq pour extraire la vitesse du vent (wind_speed)
    4. Concevez un programme bash "meteo" de telle sorte qu'il affiche la vitesse du vent pour n'importe quelle latitude et longitude.

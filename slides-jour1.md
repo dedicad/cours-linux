@@ -27,6 +27,47 @@ Marius Ambayrac, 1-2 Février 2024
   </span>
 </div>
 
+---
+transition: fade-out
+hideInToc: true
+---
+
+<div class="flex">
+  <img
+    class="w-50 border-3 rounded-80"
+    src="assets/Profil.png"
+    alt="marius_ambayrac"
+  />
+  <div class="mx-20 mt-20">
+    <div class="text-3xl">
+    Marius Ambayrac
+    </div>
+    Head of Engineering @Gojob
+  </div>
+</div>
+
+<br> </br>
+<br> </br>
+
+- Introduction à Linux (2 jours)
+- Introduction à Docker et à la conteneurisation (2 jours)
+- Gestion de projets Informatiques (5 jours)
+
+<!--
+Vous me reverrez également pour vos projets en autonomie en fin d'année ou je viendrai 1 jours pour vous accompagner.
+-->
+
+<style>
+h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #4EC5D4 10%, #146b8c 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+</style>
 
 ---
 transition: fade-out
@@ -70,7 +111,12 @@ transition: fade-out
 ---
 
 ---
-src: ./pages/jour2/let's practice.md
+src: ./pages/let's practice.md
 transition: fade-out
 ---
 
+
+---
+layout: center
+class: text-center
+---

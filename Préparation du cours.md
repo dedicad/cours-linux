@@ -32,10 +32,7 @@ Monitorer un système, Protocole SSH, Dual Boot
       1. Les distributions classiques : Ubuntu, Debian, Fedora, kali + Mac OS / Android
    3. L'utilisation intensive de Linux pour les serveurs de déploiements
       1. Qu'est ce qu'une VM ? 
-2. Installer des paquets
-   1. aptitude
-   2. snap
-   3. brew
+
 3. L'arborescence de fichier et les permissions 
    1. Dossier / fichiers / liens symboliques / exécutables 
    2. chown chiffres / droits
@@ -66,24 +63,27 @@ Monitorer un système, Protocole SSH, Dual Boot
 7. Mécanisme de cron et de daemon
    1. Cron
    2. Systemctl
+8. Installer des paquets
+   1. aptitude  (update / upgrade)
+   2. snap & brew
    
 
-8. Monitorer un système
+9. Monitorer un système
    1. ps/top/htop/lsof/watch
    2. Arrêter un programmer : kill / killall
    3. Mettre en place un firewall et bloquer un port
-9.  Protocole SSH
+10. Protocole SSH
    1. Qu'est ce que le protocole SSH (différence clé publique et clé privée)
    2. Comment générer une clé ?
    3. Comment autoriser la connection sur un serveur ? (ssh_authorized_keys et lecture automatique du .ssh)
-10. Dual Boot
+11. Dual Boot
    1. Les partitions d'un disques
    2. Les sytèmes de fichiers classiques
    3. Linux Live
    4. Comment fonctionne un dual Boot
-11. Advanced notions (optional) ? 
+12. Advanced notions (optional) ? 
     1. kernel space vs User Space
-12. Passons à la pratique !
+13. Passons à la pratique !
     1.  Poursuivre les exercices de hier
     2.  Lancer un programme en background
     3.  L'observer, le passer en foreground puis l'arrêter avec kill
