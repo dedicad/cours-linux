@@ -42,30 +42,29 @@ hideInToc: true
 
 
 ---
-src: ./pages/origin-linux.md
-transition: fade-out
----
-
-
-
----
-src: ./pages/files-and-permissions.md
+src: ./pages/jour2/cron.md
 transition: fade-out
 ---
 
 
 ---
-src: ./pages/documentation.md
+src: ./pages/jour2/install.md
+transition: fade-out
+---
+
+
+---
+src: ./pages/jour2/monitoring.md
 transition: fade-out
 ---
 
 ---
-src: ./pages/terminal.md
+src: ./pages/jour2/ssh.md
 transition: fade-out
 ---
 
 ---
-src: ./pages/executing_program.md
+src: ./pages/jour2/dual_boot.md
 transition: fade-out
 ---
 

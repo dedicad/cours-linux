@@ -36,10 +36,12 @@ hideInToc: true
 # Passage à la pratique !
 ### C. Manipuler des archives
 
-- télécharger un fichier en ligne (par exemple le fichier html https://agilemanifesto.org/principles.html)
-- Utilisez la commande tar pour créer un archive (fichier zippé) de ce fichier
-- Copiez l'archive avec la commande cp dans un dossier "archives" que vous avez crée au préalable
-- Extraire de l'archive le fichier d'origine, à l'aide de la commande tar
+<br/>
+
+1. télécharger un fichier en ligne (par exemple le fichier html https://agilemanifesto.org/principles.html)
+2. Utilisez la commande tar pour créer un archive (fichier zippé) de ce fichier
+3. Copiez l'archive avec la commande cp dans un dossier "archives" que vous avez crée au préalable
+4. Extraire de l'archive le fichier d'origine, à l'aide de la commande tar
 
 ---
 transition: fade-out
@@ -47,7 +49,7 @@ hideInToc: true
 ---
 
 # Passage à la pratique !
-### C. Gérer des permissions sur les fichiers
+### D. Gérer des permissions sur les fichiers
 <p v-click class="opacity-90 border-1 border-separate p2">La gestion des permissions est une composante importante des connaissances Linux.</p>
 
 <p v-click class="opacity-90 border-1 border-separate p2">Nous allons utiliser l'utilisateur courslinux que vous avez crée dans la partie B</p>
@@ -64,9 +66,11 @@ hideInToc: true
 ---
 
 # Passage à la pratique !
-### D. Installer un Dual Boot
+### E. Installer un Dual Boot
+<br/>
 
-- Pour les personnes intéressés, sollicitez  mon aide si besoin ! Et j'ai des clés à disposition !
+<p v-click class="opacity-90 border-1 border-separate p2">Pour les personnes intéressés, sollicitez  mon aide si besoin ! Et j'ai des clés à disposition !</p>
+
   
 ---
 transition: fade-out
@@ -76,7 +80,8 @@ hideInToc: true
 
 
 # Passage à la pratique !
-### E. Observer son système - 1
+### F. Observer son système - 1
+<br/>
 
 1. Utiliser la commande top pour observer le pourcentage de mémoire utilisé par le processus le plus consommateur de votre ordinateur.
 2. Ouvrez une fenêtre firefox
@@ -91,7 +96,8 @@ hideInToc: true
 ---
 
 # Passage à la pratique !
-### E. Observer son système
+### F. Observer son système - 2
+<br/>
 
 1. Utiliser ps -lah : pouvez vous voir les 2 processus liés à vos deux terminaux ?
 2. Obtenez l'id (pid) du processus de votre second terminal
@@ -108,7 +114,8 @@ hideInToc: true
 
 
 # Passage à la pratique !
-### F. Lancer des programmes
+### G. Lancer des programmes
+<br/>
 
 1. Créer un script bash en boucle infinie qui echo "ligne $i" (avec un counter) et qui attend (commande sleep) 1 seconde entre chaque ligne.
 2. Lancer le programme en background (avec le &)
@@ -123,7 +130,9 @@ hideInToc: true
 ---
 
 # Passage à la pratique !
-### F. Lancer des programmes
+### G. Lancer des programmes
+<br/>
+
 7. Utilisez la commande "jobs" pour visualize votre programme et son état
 8. Utilisez bg %1 pour reprendre l'exécution de votre programme en background
 9.  Utilisez fg %1 pour ramener en foreground votre programme
@@ -137,7 +146,8 @@ hideInToc: true
 ---
 
 # Passage à la pratique !
-### G. Gérer un cron
+### H. Gérer un cron
+<br/>
 
 1. Crée un programme bash qui echo la date et l'heure courante
 2. Utilisez la commande crontab -e pour editer le fichier de crontab
@@ -153,7 +163,8 @@ hideInToc: true
 
 
 # Passage à la pratique !
-### H. Gérer une clé SSH
+### I. Gérer une clé SSH
+<br/>
 
 1. Créez une clé ssh avec le protocole ed25519
 2. Utilisez cat pour visualisez la clé publique ajoutée dans votre .ssh
@@ -166,7 +177,8 @@ hideInToc: true
 ---
 
 # Passage à la pratique !
-### I. Bonus
+### J. Bonus
+<br/>
 
 1. Affichez l'ensemble des interfaces réseaux disponibles
 2. Désactiver l'une de vos interface réseau
@@ -183,6 +195,7 @@ hideInToc: true
 
 # Passage à la pratique !
 ### J. Bonus n°2
+<br/>
 
 1. Pouvez vous obtenir depuis votre terminal l'adresse IP du DNS de coda.school ? (nslookup or dig)
 2. Pouvez vous obtenir votre addresse IP privée ?
@@ -198,6 +211,7 @@ hideInToc: true
 
 # Passage à la pratique !
 ### J. Bonus n°3
+<br/>
 
 1. Qu'est ce qu'un hash SHA-1 ?
 2. Comment peut-on l'utiliser pour vérifier l'intégrité d'un packet avant de l'installer ?

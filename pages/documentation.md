@@ -15,11 +15,6 @@ hideInToc: true
 # Bien se repérer dans les commandes
 <p v-click class="border-1 border-separate p2">Le programme "tldr" permet d'ouvrir des exemples d'utilisation des commandes</p>
 
-<img v-after
-    class="w-100"
-    src="assets/tldr.png"
-    alt="marius_ambayrac"
-/> 
 
 [Documentation tldr en ligne](https://tldr.inbrowser.app/pages/common/tail)
 <!--
